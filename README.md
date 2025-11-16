@@ -48,5 +48,6 @@ To execute the visualization, simply run the following command in the MATLAB com
 
 ```matlab
 VisualizeEllipsoidPotential
+```
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=serhiiyasenev/matlab&file=https://github.com/serhiiyasenev/matlab/blob/master/VisualizeEllipsoidPotential.m)
