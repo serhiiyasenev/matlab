@@ -2,6 +2,8 @@
 
 `VisualizeEllipsoidPotential` is a MATLAB function for visualizing the gravitational potential over the surface of a triaxial ellipsoid. The function simulates the distribution of gravitational potential on the surface of a celestial body with specified semi-axes and mass using spherical coordinates.
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=serhiiyasenev/matlab&file=https://github.com/serhiiyasenev/matlab/blob/master/VisualizeEllipsoidPotential.m)
+
 ## Overview
 
 This script performs the following tasks:
@@ -28,7 +30,7 @@ The gravitational potential is computed using the following approximation:
 
 Φ(r, θ, φ) = G·m / r · [1 + ((2a²−b²−c²)x² + (2b²−a²−c²)y² + (2c²−a²−b²)z²) / (10·r⁴)]
 
-This expression accounts for the deviation from spherical symmetry due to the ellipsoidal shape, incorporating second-order (quadrupole-like) corrections.
+This expression accounts for deviations from spherical symmetry due to the ellipsoidal shape and incorporates second-order (quadrupole-like) corrections.
 
 ## Visualization
 
@@ -49,5 +51,3 @@ To execute the visualization, simply run the following command in the MATLAB com
 ```matlab
 VisualizeEllipsoidPotential
 ```
-
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=serhiiyasenev/matlab&file=https://github.com/serhiiyasenev/matlab/blob/master/VisualizeEllipsoidPotential.m)
