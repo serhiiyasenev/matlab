@@ -46,7 +46,7 @@ This expression accounts for deviations from spherical symmetry due to the ellip
 
 ## How to Run
 
-To execute the visualization, simply run the following command in the MATLAB command window:
+To execute the visualization, run the following command in the MATLAB command window:
 
 ```matlab
 VisualizeEllipsoidPotential
