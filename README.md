@@ -36,7 +36,7 @@ The effective potential is computed as the sum of gravitational and centrifugal 
 
 ### Gravitational Potential (Quadrupole Approximation):
 
-Φ_grav(r, θ, φ) = G·m / r · [1 + ((2a²−b²−c²)x² + (2b²−a²−c²)y² + (2c²−a²−b²)z²) / (10·r⁴)]
+Φ_grav(r, θ, φ) = -G·m / r · [1 + ((2a²−b²−c²)x² + (2b²−a²−c²)y² + (2c²−a²−b²)z²) / (10·r⁴)]
 
 This expression accounts for deviations from spherical symmetry due to the ellipsoidal shape and incorporates second-order (quadrupole-like) corrections.
 
