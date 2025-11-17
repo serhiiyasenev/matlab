@@ -87,7 +87,7 @@ phi_arrow   = linspace(0, 2*pi, 20);
 [x_a, y_a, z_a, r_a] = get_xyzr(theta_a, phi_a, a, b, c);
 
 % Calculate gravitational force direction (pointing toward center)
-% Force = -grad(Phi_grav) ≈ centripetal direction
+% This is the unit vector from surface point to center
 Fx = -x_a ./ r_a;
 Fy = -y_a ./ r_a;
 Fz = -z_a ./ r_a;
