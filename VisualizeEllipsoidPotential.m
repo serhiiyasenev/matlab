@@ -71,7 +71,7 @@ phi_arrow = linspace(0, 2*pi, 20);
 [theta_a, phi_a] = meshgrid(theta_arrow, phi_arrow);
 [x_a, y_a, z_a, r_a] = get_xyzr(theta_a, phi_a, a, b, c);
 
-% Centripetal force direction
+% Gravitational force direction (centripetal, pointing toward center)
 arrow_scale = max(a,max(b,c)) * 0.05;
 base_offset = 1.02;
 
