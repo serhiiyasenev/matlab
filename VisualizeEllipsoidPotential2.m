@@ -7,7 +7,7 @@ a = 2634.40e3;          % Semi-axis along x (m)
 b = 2634.10e3;          % Semi-axis along y (m)
 c = 2633.80e3;          % Semi-axis along z (m)
 G = 6.673e-11;          % Gravitational constant (m³/kg/s²)
-omega = 1.016e-5;       % Angular velocity of Ganymede (rad/s), period ~7.15 days
+omega = 2*pi/(7.15*24*3600);  % Angular velocity of Ganymede (rad/s), period ~7.15 days
 
 %% --- Angular grid on ellipsoid ---
 theta_ = linspace(-pi/2, pi/2, 150);
